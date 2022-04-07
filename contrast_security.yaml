@@ -1,0 +1,31 @@
+api:                                                                    
+  url: AAA
+  api_key: AA
+  service_key: AA
+  user_name: AA
+agent:
+  stack_trace_limit: 10
+  traverse_and_track: true
+  trust_custom_validators: false
+  logger:
+    append: false 
+    level: DEBUG
+    path: agent.log
+  reporters:      
+    logfile: true
+  security_logger:
+    level: DEBUG
+    path: security.log
+  node:
+    native_input_analisys: true
+    dev:
+      enable: true
+      global_tracker: true
+    enable_babel: false
+    rewrite_cache:
+      enable: true
+      path: ./rewrite_cache
+assess:
+  enable: true
+protect:
+  enable: false

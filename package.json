@@ -1,0 +1,35 @@
+{
+  "name": "fastify-static-test2",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Simple Fastify App for Testing Vulnerabilities",
+  "license": "MIT",
+  "author": "Jonathan Harper <jonathan.harper@contrastsecurity.com>",
+  "contributors": [
+    "Jonathan Harper"
+  ],
+  "scripts": {
+    "start": "node -r @contrast/agent server"
+  },
+  "dependencies": {
+    "@contrast/agent": "4.6.0",
+    "fastify": "^3.14.2",
+    "fastify-static": "^4.4.2"
+  },
+  "engines": {
+    "node": "12 - 17"
+  },
+  "os": [
+    "win32",
+    "linux",
+    "darwin",
+    "freebsd",
+    "openbsd"
+  ],
+  "cpu": [
+    "x64",
+    "x32",
+    "arm64",
+    "arm"
+  ]
+}
